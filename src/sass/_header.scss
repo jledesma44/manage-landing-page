@@ -1,0 +1,44 @@
+/* Navigation */
+
+.primary-header {
+  margin-top: $size-600; 
+}
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mobile-nav-toggle {
+  display: none;
+}
+
+@media (max-width: 50em) {
+  .primary-navigation {
+    display: none;
+    
+
+    position: fixed;
+    inset: 7rem $size-400 auto;
+    background: $clr-neutral-900;
+    border-radius: $size-100;
+  } 
+  .primary-navigation[data-visible] {
+    display: block;
+    
+
+  }
+  .mobile-nav-toggle {
+    display: block;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    padding: .5em;
+  
+  } 
+  
+  .mobile-nav-toggle .icon-close {
+    display: none;
+  }
+}
+
+

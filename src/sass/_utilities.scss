@@ -1,0 +1,87 @@
+/* Visually Hidden */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+
+/* Utiitiy classes */
+.text-primary-400 {
+  color: $clr-accent-400;
+}
+.text-accent-400 {
+  color: $clr-accent-400;
+}
+.text-accent-100 {
+  color: $clr-accent-100;
+}
+.text-neutral-100 {
+  color: $clr-neutral-100;
+}
+.text-neutral-900 {
+  color: $clr-neutral-900;
+}
+.bg-primary-400 {
+  background-color: $clr-primary-400;
+}
+.bg-accent-400 {
+  background-color: $clr-accent-400;
+}
+.bg-accent-100 {
+  background-color: $clr-accent-100;
+}
+.bg-neutral-100 {
+  background-color: $clr-neutral-100;
+}
+.bg-neutral-900 {
+  background-color: $clr-neutral-900;
+}
+
+.fw-bold {
+  font-weight: $fw-bold;
+}
+.fw-semi-bold {
+  font-weight: $fw-semi-bold;
+}
+.fw-regular {
+  font-weight: $fw-regular;
+}
+
+.fs-primary-heading {
+  font-size: $fs-primary-heading;
+  line-height: 1.1;
+}
+.fs-secondary-heading {
+  font-size: $fs-secondary-heading;
+  line-height: 1.1;
+}
+
+.fs-300 {
+  font-size: $fs-300;
+}
+.fs-400 {
+  font-size: $fs-400;
+}
+.fs-500 {
+  font-size: $fs-500;
+}
+.fs-600 {
+  font-size: $fs-600;
+}
+
+//padding
+.padding-block-900 {
+  padding-block: $size-900;
+}
+
+.padding-block-700 {
+  padding-block: $size-700;
+}
