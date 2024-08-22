@@ -34,7 +34,6 @@ gulp.task('watch', function () {
     // uncomment below line to use with code-server
     open: false,
     browser: "firefox developer edition",
-    host: "100.110.184.89",
     port: "5523" 
   });
   gulp
