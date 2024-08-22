@@ -32,10 +32,10 @@ gulp.task('watch', function () {
       baseDir: './',
     },
     // uncomment below line to use with code-server
-    open: false
-
-    // uncomment below line to use for vscode on local machine  
-    // browser: "firefox developer edition",
+    open: false,
+    browser: "firefox developer edition",
+    host: "100.110.184.89",
+    port: "5523" 
   });
   gulp
     .watch(
